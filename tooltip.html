@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToolTip</title>
+</head>
+<body>
+	<div class="container">
+		<h3>Tooltip Example</h3>
+		<a href="#" data-toggle="tooltip" title="Hooray!">Hover over me.</a>
+	</div>
+	<script>
+		(document).ready(function(){
+			('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+	<div class="container">
+		<h4>Top, bottom, left, right example.</h4>
+		<p>The data-placement attribute specifies the tooltip position.</p>
+		
+			<li><a href="#" data-toggle="tooltip"data-placement="top" title="Hey Top">Top</a></li>
+			<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Hey Bottom">Bottom</a></li>
+			<li><a href="#" data-toggle="tooltip" data-placement="left" title="Hey Left">Teft</a></li>
+			<li><a href="#" data-toggle="tooltip" data-placement="right" title="Hey Right">Right</a></li>
+		
+	</div>
+	<script>
+		$(document).ready(function(){
+			$('[data-toggle="tooltip]').tooltip()
+		})
+	</script>
+</body>
+</html>
